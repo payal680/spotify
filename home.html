@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="utility.css">
+    <title> Spotify</title>
+</head>
+<body>
+    
+    <div class="container display justify-content align-items">
+        <div class="left">
+            <div class="box1">
+                <div class="logo flex">
+                    <img src="spotify.svg" alt="">
+                    <p>spotify</p>
+                </div>
+                <div class="home flex ">
+                    <i class="fa-solid fa-house-chimney align-items"></i>
+                    <p class="pera">home</p>
+                </div>
+                <div class="search flex ">
+                    <i class="fa-solid fa-magnifying-glass align-items"></i>
+                    <p class="pera">search</p>
+                </div>
+            </div>
+            <div class="box2 box1">
+                <div class="library flex padding">
+                    <i class="fa-solid fa-book-open"></i>
+                    <p class="pera">Your Library </p>
+                </div>
+                <div style="height:200px"></div>
+                <div class="footer">
+                    <div class="padding"> <a href="">Ligal</a></div>
+                    <div class="padding"> <a href="">Privacy Centre</a></div>
+                    <div class="padding"> <a href="">Privacy Policy</a></div>
+                    <div class="padding"> <a href="">cookies</a></div>
+                    <div class="padding"> <a href="">About ads</a></div>
+                    <div class="padding"> <a href="">Accessibility</a></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right box1">
+            <div class="header flex bg-grey">
+                <div class="nav padding ">
+                    <button class="last-button" onclick="scrollLeft()">&#10094;</button>
+                    <button class="last-button" onclick="scrollLeft()">&#10095;</button>
+                </div>
+                <div clas="flex align-items">
+                    <button class="signup-btn">sign-up</button>
+                    <button class="login">log in</button>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h3>Spotify Playlist</h3>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="logocontainer">
+                            <i class="fa-solid fa-play play-i"></i>
+                        </div>
+                        <img class="img" src="happyhits.jpeg" src="happy hits">
+                        <h5>Happy Hits!</h5>
+                        <p class="p-card">Hits to boost your mood and feels you energetic</p>
+                    </div>
+                    <div class="card">
+                        <div class="logocontainer">
+                            <i class="fa-solid fa-play play-i"></i>
+                        </div>
+                        <img class="img" src="calming.jpeg" src="happy hits">
+                        <h5>Calming Acoustics</h5>
+                        <p class="p-card">Keep calm with instrumental acoustics...</p>
+                    </div>
+                    <div class="card">
+                        <div class="logocontainer">
+                            <i class="fa-solid fa-play play-i"></i>
+                        </div>
+                        <img class="img" src="christmas.jpeg" src="happy hits">
+                        <h5>christmas Classics</h5>
+                        <p class="p-card">Timeless heart-warming classics from 1940-1980</p>
+                    </div>
+                    <div class="card">
+                        <div class="logocontainer">
+                        <i class="fa-solid fa-play play-i"></i>
+                    </div>
+                        <img class="img" src="chill.jpeg" src="happy hits">
+                        <h5>Lofi Chills</h5>
+                        <p class="p-card">Lazy slow lofi beats for laid-back moments</p>
+                    </div>
+                    <div class="card">
+                        <div class="logocontainer">
+                            <i class="fa-solid fa-play play-i"></i>
+                        </div>
+                        <img class="img" src="viral.jpeg" src="happy hits">
+                        <h5>Viral Hits</h5>
+                        <p class="p-card">Viral,treanding and talking off</p>
+                    </div>
+                    <div class="card">
+                        <div class="logocontainer">
+                            <i class="fa-solid fa-play play-i"></i>
+                        </div>
+                        <img class="img" src="house.jpeg" src="happy hits">
+                        <h5>Louge Soft House</h5>
+                        <p class="p-card">Soft house musiic for your laidback moment</p>
+                    </div>
+                    <div class="card">
+                        <div class="logocontainer">
+                            <i class="fa-solid fa-play play-i"></i>
+                        </div>
+                        <img class="img" src="fithit.jpeg" src="happy hits">
+                        <h5>Fit Hits</h5>
+                        <p class="p-card">Warm instrumental hits of your favorite</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="songinfo"></div>
+                    <div class="songbutton">
+                        <i class="fa-solid fa-backward-step play-i padding-LR"></i>
+                        <i class="fa-solid fa-play play-i padding-LR"></i>
+                        <i class="fa-solid fa-forward-step play-i padding-LR"></i>
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
